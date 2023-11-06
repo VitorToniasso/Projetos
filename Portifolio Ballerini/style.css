@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #513b63 16.62%, #8613a8 85.61%);
+}
+
+.cabecalho {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.Imagem-topo {
+    height: 72px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+
+}
+.menu-cabecalho {
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7;
+
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 64px;
+}
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+}
+.botao-conteudo {
+    background-color: #ecd6c4;
+    width: 170px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #2F2325;
+}
+.imagem-centro {
+    height: 430px;
+
+}
+.inf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+    margin-top: 48px;
+}
+.inf-titulo {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 40px;
+    font-size: 24px;
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.inf-sec {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff2e7;
+}
+.roda-pe {
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+.imagem-pe {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}

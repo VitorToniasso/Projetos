@@ -1,0 +1,49 @@
+// delcaro e atribui valor
+let boasVindas = "Fala, Dev!";
+boasVindas = "Fala, Dev! Beleza?!"
+
+// Contaste nao pode mudar o valor
+const serHumano = true;
+serHumano = false //Erro
+
+//String 
+""
+''
+``    
+//Number
+1
+1.2
+//Bolean
+true
+false
+
+//funçao 
+
+//Agrupamento de códigos
+//Reuso de códigos 
+//Mini programas dentro do prgrama 
+//Toda linguagem oferece muitas opções
+
+// usando uma function 
+    alert('Fala, Dec!')
+// criando uma funçao 
+    function alert(text) {
+        return text
+    }
+
+// Objetos
+
+//Atributos
+    São as propredades de um objeto
+
+//Metodos
+    São as funcionalidades de um objeto
+
+// criando um objeto
+    const person = {
+        age: 18,
+        drive: function() {}
+    }
+
+//Usando um objeto
+    person.drive()
